@@ -1,3 +1,1 @@
-# anciennes adresses PrestaShop -> accueil
-/test-redirection  /  301
-/*  /  301
+# Les anciennes adresses PrestaShop sont renvoyées vers l'accueil par 404.html
