@@ -1,2 +1,3 @@
-# anciennes adresses PrestaShop -> accueil (seulement si aucun fichier ne correspond)
+# anciennes adresses PrestaShop -> accueil
+/test-redirection  /  301
 /*  /  301
