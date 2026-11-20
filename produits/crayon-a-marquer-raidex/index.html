@@ -14,7 +14,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Store", "name": "Top-Filaha", "url": "https://top-filaha.com/", "description": "Matériel agricole, d'élevage et para-vétérinaire au Maroc : reproduction, laiterie, alimentation, vaccination, identification, contention, hygiène, protection.", "telephone": "+212762286979", "email": "top.filaha.maroc@gmail.com", "address": {"@type": "PostalAddress", "streetAddress": "Bd Ibn Tachfine, Rue Rakib Azdam Idriss, Immeuble B4, Magasin n°14", "addressLocality": "Casablanca", "addressCountry": "MA"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "19:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "12:00"}], "geo": {"@type": "GeoCoordinates", "latitude": 33.5858104, "longitude": -7.5902121}, "hasMap": "https://www.google.com/maps/place/?q=place_id:0xda7cd69bb35a41d:0xe4cb9880d2863657", "areaServed": "MA", "sameAs": ["https://www.instagram.com/top.filaha.maroc/"]}</script>
 <style>html,body{margin:0;padding:0}</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Crayon à marquer RAIDEX", "description": "Crayon marqueur Raidex pour marquer temporairement les animaux : soins faits, animaux à trier ou à surveiller. La couleur se voit de loin et tient sur le poil.", "sku": "TF0041", "category": "Identification", "url": "https://top-filaha.com/produits/crayon-a-marquer-raidex/", "brand": {"@type": "Brand", "name": "Top-Filaha"}, "image": "https://top-filaha.com/img/crayon-a-marquer-raidex-274200e44c.jpg"}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://top-filaha.com/"}, {"@type": "ListItem", "position": 2, "name": "Identification", "item": "https://top-filaha.com/#produits"}, {"@type": "ListItem", "position": 3, "name": "Crayon à marquer RAIDEX", "item": "https://top-filaha.com/produits/crayon-a-marquer-raidex/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://top-filaha.com/"}, {"@type": "ListItem", "position": 2, "name": "Identification", "item": "https://top-filaha.com/rayons/identification/"}, {"@type": "ListItem", "position": 3, "name": "Crayon à marquer RAIDEX", "item": "https://top-filaha.com/produits/crayon-a-marquer-raidex/"}]}</script>
 <style>.prodpage{padding-top:22px}.prodpage .crumb{font-size:14px;color:var(--muted)}.prodpage .crumb a{color:inherit}
 .pp{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:28px;align-items:start;margin:12px 0 8px;background:var(--soft);border-radius:18px;padding:22px}
 .pp img{width:100%;height:auto;border-radius:14px;background:#fff;display:block}.pp h1{margin:0 0 6px;font-size:28px;line-height:1.2}
@@ -229,6 +229,7 @@ section[id],main>div[id]{scroll-margin-top:150px}
 @media (max-width:860px){.rvbar{bottom:76px;left:8px;right:8px}}
 .rv select{width:100%;font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px}.apv img{max-width:160px;max-height:160px;margin-top:8px;border-radius:10px;border:1px solid var(--line)}
 #cform button{flex:none}#cform textarea{flex:1;min-height:90px}
+.prod h3 a{color:inherit;text-decoration:none}.prod h3 a:hover{color:var(--teal)}
 .plink{display:inline-block;margin-top:10px;font-size:14px;color:var(--muted)}
 .minimap{border-radius:12px;overflow:hidden;border:1px solid var(--line)}.minimap iframe{width:100%;height:190px;border:0;display:block}.minimap a{display:block;padding:8px 12px;font-size:14px;font-weight:600;color:var(--teal,#0B7A8A);text-decoration:none;background:var(--bg)}
 .rv .okb{background:#95C11F;color:#1f2a05}.rv .svb{background:#0B7A8A;color:#fff}.rv .nxb{background:transparent;border:1px solid var(--line)!important;color:inherit}
@@ -408,7 +409,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.15);paddin
 
 <main>
 <section class="wrap prodpage" id="fiche-produit">
-  <div class="crumb"><a href="/">Accueil</a> › <a href="/#produits">Identification</a> › Crayon à marquer RAIDEX</div>
+  <div class="crumb"><a href="/">Accueil</a> › <a href="/rayons/identification/">Identification</a> › Crayon à marquer RAIDEX</div>
   <div class="pp"><img src="img/crayon-a-marquer-raidex-274200e44c.jpg" alt="Crayon à marquer RAIDEX" width="800" height="800">
    <div><h1>Crayon à marquer RAIDEX</h1><span class="ref">Réf. TF0041</span>
    <p>Crayon marqueur Raidex pour marquer temporairement les animaux : soins faits, animaux à trier ou à surveiller. La couleur se voit de loin et tient sur le poil.</p>
@@ -632,7 +633,7 @@ function espOf(p){const R=p.ref||"",r=p.r,e=new Set();
 function renderEsp(){if(!$("esp"))return;$("esp").innerHTML=ESP.map(x=>`<button type="button" data-esp="${x.id}" aria-pressed="${st.esp===x.id}">${sym(x.sym,54)}${x.nom}<small>${P.filter(p=>vis(p)&&p.e.has(x.id)).length} produits</small></button>`).join("");}
 const FEAT=["R001","echographe-portable","V001","L006","A001","E001","R008","S002","IN003"];
 function renderFeat(){const L=FEAT.map(k=>P.find(p=>p.k===k)).filter(p=>p&&vis(p)).slice(0,5);
-  $("feat").innerHTML=L.map(p=>`<article class="prod"><button class="ph" type="button" data-open="${p.id}" aria-label="Voir ${esc(p.n)}">${pic(p,64)}</button><div class="in"><span class="cat">${rayName(p.r)}</span><h3><button type="button" data-open="${p.id}">${esc(p.n)}</button></h3><div class="bot"><span class="ask">Réf. ${esc(p.tf||p.ref)}</span><button class="add" type="button" data-open="${p.id}" aria-label="Voir le produit">›</button></div></div></article>`).join("");}
+  $("feat").innerHTML=L.map(p=>`<article class="prod"><button class="ph" type="button" data-open="${p.id}" aria-label="Voir ${esc(p.n)}">${pic(p,64)}</button><div class="in"><span class="cat">${rayName(p.r)}</span><h3>${plk(p)}</h3><div class="bot"><span class="ask">Réf. ${esc(p.tf||p.ref)}</span><button class="add" type="button" data-open="${p.id}" aria-label="Voir le produit">›</button></div></div></article>`).join("");}
 const PAGES={
  commander:["Comment commander",`<p>Chez Top-Filaha, commander est simple et se fait en quelques messages :</p><ol><li><b>Choisissez vos produits</b> sur le site et ajoutez-les à votre demande de prix (bouton panier), ou notez simplement leurs références.</li><li><b>Envoyez votre demande</b> sur WhatsApp au 07 62 28 69 79, en un clic depuis le site. Vous pouvez aussi nous envoyer une photo du produit recherché.</li><li><b>Recevez votre offre</b> : nous vous répondons rapidement avec les prix, la disponibilité et le délai de livraison.</li><li><b>Validez</b> et recevez vos produits à votre adresse.</li></ol><p>Une question avant de commander ? Notre équipe vous conseille du lundi au vendredi de 9 h à 19 h et le samedi de 9 h à 12 h.</p>`],
  livraison:["Livraison",`<p><b>Livraison partout au Maroc.</b> Nous expédions vos commandes directement à votre adresse, de la petite exploitation aux grandes structures. L'expédition se fait sous 24 h après confirmation de la commande.</p>`],
@@ -654,6 +655,8 @@ function renderRayons(){
   $("circles").innerHTML=RAY.map(r=>`<button class="circle" type="button" data-ray="${r.id}"><span class="ph">${sym(r.id,84)}</span>${r.nom}<small>${((n)=>n+" produit"+(n>1?"s":""))(P.filter(p=>p.r===r.id&&vis(p)).length)}</small></button>`).join("");
   $("footRay").innerHTML=RAY.map(r=>`<li><button type="button" data-ray="${r.id}">${r.nom}</button></li>`).join("");
 }
+const plk=p=>window.PURL&&PURL[p.k]?`<a href="/produits/${PURL[p.k]}/" data-open="${p.id}">${esc(p.n)}</a>`:`<button type="button" data-open="${p.id}">${esc(p.n)}</button>`;
+document.addEventListener("click",e=>{const a=e.target.closest("a[data-open]");if(a&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&e.button===0){e.preventDefault();openFiche(+a.dataset.open)}});
 function renderGrid(){
   const q=st.q.trim().toLowerCase();
   let L=P.filter(p=>vis(p)&&(!st.esp||p.e.has(st.esp))&&(!st.ray||p.r===st.ray)&&(!q||((p.tf||"")+" "+p.n+" "+rayName(p.r)+" "+p.b.join(" ")+" "+(p.d||"")).toLowerCase().includes(q)));
@@ -664,7 +667,7 @@ function renderGrid(){
     ${p.f?`<span class="flag f-${p.f}">${p.f==="new"?"Nouveau":"Promo"}</span>`:""}
     <button class="ph" type="button" data-open="${p.id}" aria-label="Voir ${esc(p.n)}">${pic(p,64)}</button>
     <div class="in"><span class="cat">${rayName(p.r)}</span>
-    <h3><button type="button" data-open="${p.id}">${esc(p.n)}</button></h3>
+    <h3>${plk(p)}</h3>
     <div class="bot"><span class="ask">Réf. ${esc(p.tf||p.ref)}</span>
     <button class="add" type="button" data-add="${p.id}" data-in="${inC?1:0}" aria-label="${inC?"Retirer de":"Ajouter à"} ma demande">${inC?checkIco:cartIco}</button></div></div></article>`}).join("")
     :`<div class="empty">Aucun produit trouvé. Écrivez-nous sur WhatsApp : nous l'avons peut-être en magasin.</div>`;
@@ -810,6 +813,7 @@ document.querySelectorAll("[data-socl]").forEach(el=>{el.innerHTML=SOCIAL.map(x=
  return `<li>${x.u?`<a href="${x.u}" target="_blank" rel="noopener">${ic}<span>${x.n}</span></a>`:`<a class="off" aria-disabled="true">${ic}<span>${x.n}</span><small>bientôt</small></a>`}</li>`}).join("")});
 document.querySelectorAll("[data-soc]").forEach(el=>{el.innerHTML=SOCIAL.map(x=>{const ic=`<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${x.d}</svg>`;
  return x.u?`<a href="${x.u}" target="_blank" rel="noopener" aria-label="${x.n}" title="${x.n}">${ic}</a>`:`<a class="off" aria-disabled="true" aria-label="${x.n} (bientôt)" title="${x.n} : bientôt">${ic}</a>`}).join("")});
+if(window.INIT_RAY&&RAY.some(r=>r.id===INIT_RAY))st.ray=INIT_RAY;
 renderRayons(); renderEsp(); renderFeat(); renderGrid(); renderCart(); showSlide(0); restart();
 (async()=>{let db=null,us=null; try{[db,us]=await Promise.all([claude.use("db"),claude.use("user")])}catch(e){} if(!db||!us)return;
   let ok=false; try{ok=await us.canEdit()}catch(e){} if(!ok)return;
